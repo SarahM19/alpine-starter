@@ -1,0 +1,18 @@
+{
+  "prose": {
+    "h2": {
+      "icon": "material-symbols:10k"
+    }
+  },
+  "alpine": {
+    "header": {
+      "position": "center"
+    }
+  },
+  "nuxtIcon": {
+    "aliases": {
+      "key-226": "ph:address-book-fill",
+      "key-247": "ph:activity-fill"
+    }
+  }
+}
