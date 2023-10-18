@@ -9,7 +9,7 @@ export default defineAppConfig({
       height: 300
     },
     header: {
-      position: 'right', // possible value are : | 'left' | 'center' | 'right'
+      position: 'left', // possible value are : | 'left' | 'center' | 'right'
       logo: {
         path: '/logo.svg', // path of the logo
         pathDark: '/logo-dark.svg', // path of the logo in dark mode, leave this empty if you want to use the same logo
@@ -18,11 +18,16 @@ export default defineAppConfig({
     },
     footer: {
       credits: {
-        enabled: true, // possible value are : true | false
-        repository: 'https://www.github.com/nuxt-themes/alpine' // our github repository
+        // possible value are : true | false
+        enabled: true,
+
+        // our github repository
+        repository: 'https://www.github.com/nuxt-themes/alpine',
+
+        text: 'Alpinetyyyyyyyy'
       },
       navigation: true, // possible value are : true | false
-      alignment: 'center', // possible value are : 'none' | 'left' | 'center' | 'right'
+      alignment: 'left', // possible value are : 'none' | 'left' | 'center' | 'right'
       message: 'Follow me on' // string that will be displayed in the footer (leave empty or delete to disable)
     },
     socials: {
@@ -37,5 +42,14 @@ export default defineAppConfig({
     form: {
       successMessage: 'Message sent. Thank you!'
     }
+  },
+
+  prose: {
+    h2: {}
+  },
+
+  nuxtIcon: {
+    aliases: {},
+    class: ''
   }
 })
